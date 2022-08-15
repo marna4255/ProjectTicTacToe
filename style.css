@@ -1,0 +1,48 @@
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color:#985aaa;
+    color: wheat;
+    }
+
+.table_game {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #000000;
+    border: 2px solid #524683;
+    padding: 10px 10px;
+    transform: translate(-50%, -50%);
+        }
+
+h3{
+    text-align: center;
+    font-size: 32px;
+    color: #985aaa;
+}
+
+.status {
+    font-size: 20px;
+    margin: 5px;
+    text-align: center;
+    font-weight: bold;
+    color: #f6f6f6;
+    }
+    
+.cell_game {
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: 2px;
+    border: 3px solid #524683;
+    float: left;
+    font-size: 50px;
+    text-align: center;
+    line-height: 2;
+    }
+
+.rest {
+   background-color: #430cda;
+   border-radius: 10px;
+   font-weight: bold;
+   font-size: 15px;
+}
